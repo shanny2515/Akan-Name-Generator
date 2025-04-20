@@ -4,29 +4,41 @@
 <head>
     <title>The Ghananian Name Harvest</title>
     <link rel="stylesheet" href="./styles/styles.css">
-    <script src="./src/script.js">defer</script>
+    <script src="./src/script.js" defer></script>
 </head>
 
-<body>
+<body style="background-image: url(./asserts/images/background.jpeg);">
     <div>
-        <h1>Welcome to the Ghanian Name Harvest </h1>
-        <h3>where we pluck out Akan names from your birth date</h3>
+        <h1 id="hd1">Welcome to the Ghananian Name Harvest </h1>
+        <h3>where we pluck out Akan names from your birth date.</h3>
     </div>
     <div>
-        <p>Let your birth date unvail to you  a cultural nickname rooted in the wisdom of Ghananian adikra symbols</p>
-        <p>simply enter your name and yor date of birth click "generate" to see your Ghananian name </p>
-    
-    </div>
-    <form>
-        <label for="fname">first name </label>
-        <input type="text" value="">
-        <label for="lname">last name</label>
-        <input type="text" value="">
-        <label for="Date of birth">DOB</label>
-        <input type="date" name="birth date" id="birth date">
-        <button type="button">generate</button>
-    </form>
+        <p id="p1">Let your birth date unvail to you a cultural nickname rooted in the wisdom of Ghananian adikra
+            symbols.</p>
+        <p>simply enter your date of birth , select your gender then click "generate" to see your Ghananian name.</p>
 
+    </div>
+    <form action="" id="myform">
+        <label for="Day">Day</label>
+        <input type="number" name="day " id="dayOfBirth">
+
+        <label for="month">Month</label>
+        <input type="number" name="month" id="birthMonth">
+    
+        <label for="year">Year</label>
+        <input type="number" name="year" id="birthYear">
+
+        <label for="gender">gender</label>
+            <select name="gender" id="gender">
+                <option value=""></option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+        <input type="submit" value="generate">
+    </form>
+    <h3 id="ghananianName"></h3>
+    <footer id="footer">
+        <p>copyright @ 2025  Shanny Damar. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
