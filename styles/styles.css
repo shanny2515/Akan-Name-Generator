@@ -29,7 +29,7 @@ p{
   }
   
 #p1{
-    padding-top: 5vw;
+    padding-top: 2vw;
 }
 input[type=number]{
     padding: 5px;
@@ -55,10 +55,10 @@ input[type=submit]{
     margin-top: 10px;
 }
 input[type=submit]:active{
-    background-color: white;
+    background-color: black;
     color: darkgreen;
 }
-#ghananianName{
+#ghanaianName{
     font-family: cursive;
     font-weight: bolder;
 }
