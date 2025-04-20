@@ -1,0 +1,67 @@
+html{
+    text-align: center; 
+    }
+h1{
+    text-align: center;
+    font-size-adjust: initial;
+    font-size: calc(50px);
+    font-weight: bolder;
+    font-style: italic;
+}
+h3{
+    text-align: center;
+    font-style: italic;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#myform {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    width: 200px; /* Optional: limits the form width */
+    gap: 10px;     /* Optional: adds spacing between fields */
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    padding-top: 20px;
+  }
+  
+#p1{
+    padding-top: 5vw;
+}
+input[type=number]{
+    padding: 5px;
+    width: 200px;
+    font-family: fant;
+    font-weight: 500;
+    border-color: green;
+    text-align: center;
+}
+select[name=gender]{
+    padding: 5px;
+    width: 200px;
+    border-color: green;
+    text-align: center;
+}
+input[type=submit]{
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+    border-color: green;
+    width: 100px;
+    margin-top: 10px;
+}
+input[type=submit]:active{
+    background-color: white;
+    color: darkgreen;
+}
+#ghananianName{
+    font-family: cursive;
+    font-weight: bolder;
+}
+#footer{
+    padding-top: 10vw;
+}
