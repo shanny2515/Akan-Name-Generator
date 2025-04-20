@@ -38,6 +38,6 @@ document.getElementById("myform").addEventListener("submit", function(event) {
 
   const akanName = gender === "female" ? akanFemaleNames[dayIndex] : akanMaleNames[dayIndex];
 
-  const ghananianName = document.getElementById("ghananianName");
-  ghananianName.textContent = `According to Akan tradition, being born on a  ${daysOfTheWeek[dayIndex]} bestows upon you the name ${akanName}.`;
+  const ghanaianName = document.getElementById("ghanaianName");
+  ghanaianName.textContent = `According to Akan tradition, being born on a  ${daysOfTheWeek[dayIndex]} bestows upon you the name ${akanName}.`;
 });
