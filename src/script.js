@@ -11,15 +11,15 @@ document.getElementById("myform").addEventListener("submit", function(event) {
   const gender = document.getElementById("gender").value;
 
   if (isNaN(day) || day < 1 || day > 31) {
-    alert("Please enter a valid day.");
+    alert("Please input a valid day.");
     return false;
   }
   if (isNaN(month) || month < 1 || month > 12) {
-    alert("Please enter a valid month.");
+    alert("Please input a valid month.");
     return false;
   }
   if (isNaN(year)) {
-    alert("Please enter a valid year.");
+    alert("please input a valid year.");
     return false;
   }
   if (gender === "") {
@@ -33,7 +33,7 @@ document.getElementById("myform").addEventListener("submit", function(event) {
   
 
   const d = Math.floor((CC / 4 - 2 * CC - 1 + 5 * YY / 4 + 26 * (MM + 1) / 10 + DD) % 7);
-  const dayIndex = (d + 7) % 7; // To ensure it's positive
+  const dayIndex = (d + 7) % 7;
 
 
   const akanName = gender === "female" ? akanFemaleNames[dayIndex] : akanMaleNames[dayIndex];
