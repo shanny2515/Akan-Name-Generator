@@ -7,6 +7,7 @@ h1{
     font-size: calc(50px);
     font-weight: bolder;
     font-style: italic;
+    color: green;
 }
 h3{
     text-align: center;
@@ -59,8 +60,9 @@ input[type=submit]:active{
     color: darkgreen;
 }
 #ghanaianName{
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+    color: green;
 }
 #footer{
     padding-top: 10vw;
