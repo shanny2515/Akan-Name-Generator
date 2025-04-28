@@ -21,9 +21,9 @@ p{
      display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; */
-    width: 200px; /* Optional: limits the form width */
-    gap: 10px;     /* Optional: adds spacing between fields */
+    flex-direction: column; 
+    width: 100%;
+    gap: 10px;   
     font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
