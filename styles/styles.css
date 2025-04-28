@@ -9,12 +9,13 @@ h1{
     font-style: italic;
     color: green;
 }
-h3{
+h2{
     text-align: center;
     font-style: italic;
 }
 p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 900;
 }
 #myform {
      display: flex;
