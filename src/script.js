@@ -30,9 +30,9 @@ document.getElementById("myform").addEventListener("submit", function(event) {
   const YY = year % 100;
   const MM = month;
   const DD = day;
+  
 
-  // Custom formula
-  const d = Math.floor(((4 * CC - 2 * CC - 1) + (5 * YY / 4) + (26 * (MM + 1) / 10) + DD) % 7);
+  const d = Math.floor((CC / 4 - 2 * CC - 1 + 5 * YY / 4 + 26 * (MM + 1) / 10 + DD) % 7);
   const dayIndex = (d + 7) % 7; // To ensure it's positive
 
 
@@ -41,3 +41,4 @@ document.getElementById("myform").addEventListener("submit", function(event) {
   const ghanaianName = document.getElementById("ghanaianName");
   ghanaianName.textContent = `According to Akan tradition, being born on a  ${daysOfTheWeek[dayIndex]} bestows upon you the name ${akanName}.`;
 });
+
